@@ -1,7 +1,6 @@
 set term pngcairo 
 set output 'images/output.png'
-plot 'data/wallis.txt' with lp, 'data/leibniz.txt' with lp
-set term x11
 set xlabel 'size'
 set ylabel 'time'
-
+plot 'data/wallis.txt' with lp, 'data/fourier.txt' with lp
+set term x11
